@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'GoogleCast' do |sp|
-    # cast_dir = "modules/google-cast"
+    cast_dir = "modules/google-cast"
 
     sp.dependency 'ConnectSDK/Core'
     sp.source_files = "#{cast_dir}/**/*.{h,m}"
